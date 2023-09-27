@@ -3,6 +3,7 @@
  Tells you about the operating system and the rest of the system.
 
 i) `-a` long version( stands for all)
+
 ii) `-p` Type of processer
 
 2. `whoami`
@@ -61,7 +62,7 @@ i) `head -3` <filename.type> prints the top 3 lines from a file.
 
 15) `nl`
 prints out the number lines of a file.
-nl chicken_joke.txt:
+`nl chicken_joke.txt:`
 1 why did the chicken cross the road?
 2 To meet the colonel.
 
@@ -90,4 +91,4 @@ switch user  into super user, typically root user
 breaks connection to EC2 instance.
 
 23) `Bash`
-Born Again Shell - A default shell, with prefix $. 
+Born Again Shell - A default shell, with prefix $. This interface allows you to run commands. 
