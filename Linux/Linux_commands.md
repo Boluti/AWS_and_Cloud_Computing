@@ -88,6 +88,6 @@ switch user  into super user, typically root user
 
 22) `exit` 
 breaks connection to EC2 instance.
-23) 
+
 23) `Bash`
 Born Again Shell - A default shell, with prefix $. 
