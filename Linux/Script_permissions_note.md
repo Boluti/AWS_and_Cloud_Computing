@@ -47,10 +47,10 @@ chmod-calculator.com to see the shorthand form and code for linux permissions.
 - 700: Owner can r,w,x
 - 770 : Owner and group can both r,w,x
 - 760: Group cannot execute but can r,w.
-- -767: The public can r,w,x
+- 767: The public can r,w,x
 
 ## Short hand ##
-sudo chmod 777 filename - gives all permissions to all sets of users. Each 7 gives all permissions to each user set, so one 7 gives to owners only and and the second 7 gives to group.
+`$ sudo chmod 777 filename` - gives all permissions to all sets of users. Each 7 gives all permissions to each user set, so one 7 gives to owners only and and the second 7 gives to group.
 
 Read is 4. Write is 2. Execute is 1. https://chmod-calculator.com/
 #  Environment variable #
@@ -59,5 +59,5 @@ Environment variable: the name and the contents stored. They are dynamic variabl
 In linux, the variables are all upper case with an equal sign. 
 - `$ printenv USER` : prints the user environment variable
 - `$ MYNAME=Tife`
-- `$ export MY_NAME=Tife` :It declares an environment variable. The name is in the operating system itself and not only gitbash.
+- `$ export MY_NAME=Tife`:It declares an environment variable. The name is in the operating system itself and not only gitbash.
   
