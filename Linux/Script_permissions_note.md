@@ -3,7 +3,8 @@
 `nano provision. sh ` : It creates the shell script and opens it in nano text editor. 
 ` #!/bin/bash` : It is placed at the top of the file and tells linux the interpreter to use.
 It is called a shbang(tells the operating system,Linux this is going to be a script)
-![img_13.png](img_13.png)
+!![img_13](https://github.com/Boluti/AWS_and_Cloud_Computing/assets/145682024/0cb1746b-1966-4f52-9296-6133b94fedf6)
+
 
 ## Managing processes in Linux ##
  - Linux is good in managing processes.
@@ -13,7 +14,8 @@ It is called a shbang(tells the operating system,Linux this is going to be a scr
  - `$ ps -aux` : it gives a snapshot of the commands. It's best to get a readout 
  - `$ ps -top`: it gives a live readout of the processes.
  - `$ shift and capital M `. It ranks them.  Control z or Control c to stop it from running. Control Q to sign out.
-![img_11.png](img_11.png)
+!![img_11](https://github.com/Boluti/AWS_and_Cloud_Computing/assets/145682024/9c4732ab-2c13-44e1-af6e-0395a9459ddf)
+
  - `$ sleep 5000 &`: This causes the command to run in the background rather than foreground.
  - `$ kill -1 29598(PID number)` : To kill a process from running for example: Sleep.
  - `$ kill -15 29610(PID number)` : Terminates the program entirely( Completely destroyed).
@@ -33,7 +35,7 @@ The third set of permission is others.
 Access permission: read(r), write(w) and execute(x) access. 
 The owner can read and write but can't execute. The group members can read only. 
 - $ `chmod u+x name of the file(bad-joke.txt)`: u+x is for the permissions section(user)
-![img_12.png](img_12.png)
+  
 - $ `sudo chmod -xw bad-joke.txt`: -xw removes the rights to execute and write
 - $ `sudo chmod 777 bad-joke.txt`: 777 gives right to all users to execute. 
 - Linux permissions:
@@ -58,4 +60,4 @@ In linux, the variables are all upper case with an equal sign.
 - `$ printenv USER` : prints the user environment variable
 - `$ MYNAME=Tife`
 - `$ export MY_NAME=Tife` :It declares an environment variable. The name is in the operating system itself and not only gitbash.
-- 
+  
