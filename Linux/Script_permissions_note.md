@@ -1,6 +1,7 @@
 ### Scripting ###
 ## Creating a script to install nginx ##
 `nano provision. sh ` : It creates the shell script and opens it in nano text editor. 
+
 ` #!/bin/bash` : It is placed at the top of the file and tells linux the interpreter to use.
 It is called a shbang(tells the operating system,Linux this is going to be a script)
 !![img_13](https://github.com/Boluti/AWS_and_Cloud_Computing/assets/145682024/0cb1746b-1966-4f52-9296-6133b94fedf6)
