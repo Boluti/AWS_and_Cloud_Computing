@@ -83,4 +83,4 @@ Verify the variable has been created correctly using:
 - In your web browser go to the public ip followed by :3000 (the port) and /posts (to display the information from the database) An example is: http://54.194.155.127:3000/
 
 - If you see a bunch of randomly generated latin posts, you have successfully set up the connection!
-![img_22.png](img_22.png)
+![image](https://github.com/Boluti/AWS_and_Cloud_Computing/assets/145682024/1994e312-e9f8-4936-910c-6acf5aea2da4)
